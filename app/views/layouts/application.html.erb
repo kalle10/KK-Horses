@@ -2,7 +2,7 @@
 <html>
 <head>
  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-  <title>KkHorses</title>  
+  <title>KK-Horses</title>  
     <!-- Google Maps API Key - You will need to use your own API key to use the map feature -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
@@ -13,6 +13,39 @@
   <%= csrf_meta_tags %>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="/home/index#page-top">
+                <i class="fa fa-play-circle"></i>  <span class="light">back</span> to top
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a href="/home/index#page-top"></a>
+                </li>
+                <li class="page-scroll">
+                    <a href="/home/index#about">About</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="/home/index#download">Horses</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="/home/index#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
 	<%= yield %>
 </body>
 
