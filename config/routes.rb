@@ -1,6 +1,7 @@
 KkHorses::Application.routes.draw do
   get "team/index"
   get "horses/index"
+  get "horses/:name" => 'horses#show', as: :horse
   get "home/index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
