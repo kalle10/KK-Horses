@@ -1,0 +1,37 @@
+header {
+	font-size: 90px;
+
+}
+
+
+
+
+/*SHRINK*/
+/*.shrink img {
+  height: 400px;
+  width: 400px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.shrink img:hover {
+  width: 300px;
+  height: 300px;
+}*/
+
+/*drop shadow image hover*/
+/*img {
+  -webkit-transition: all 0,2s ease;
+     -moz-transition: all 0,2s ease;
+       -o-transition: all 0,2s ease;
+      -ms-transition: all 0,2s ease;
+          transition: all 0,2s ease;
+}
+ 
+img:hover {
+  -webkit-filter: drop-shadow(10px 7px 1px grey)
+}*/
