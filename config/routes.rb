@@ -1,5 +1,6 @@
 KkHorses::Application.routes.draw do
   get "team/index"
+  get "team/:name" => 'team#present', as: :team_present
   get "horses/index"
   get "horses/:name" => 'horses#show', as: :horse
   get "home/index"
