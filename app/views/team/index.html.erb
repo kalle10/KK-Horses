@@ -1,61 +1,141 @@
-<h1 class="brand-heading">Team and facilities</h1>
-
-<div class="team">
-<link rel="stylesheet" type="text/css" href="/assests/team.css">	
-	<h1>Team</h1>
-
 
 <section id="team">
 	<header>
-		<h1>team</h1>
+		<h1>Team and Facilities</h1>
 	</header>
-	<div class='row'>
-	<section class='col-md-6'>
-		<header>
-			<h2>moat house</h2>
-		</header>
-		<figure>
-			<%= link_to image_tag("IMG_1929.JPG"), team_present_path('moathouse') %>
+	
+	<section>
+		<div class='row'>
+			<figure class='col-md-5 col-md-offset-1'>
+			<%= link_to image_tag("moathouse.png"), team_present_path('moathouse') %>
 			<figcaption>The Moat House</figcaption>
-		</figure>
-		<figure>
-			<%= link_to image_tag("IMG_1929.JPG"), team_present_path('raiders') %>
+			</figure>
+			<aside class='col-md-3 col-md-offset-1'>
+				<p> 
+				<br>The Moat House</br>
+				<p/>
+			</aside>
+		</div>
+		<div class='row'>
+			<figure class='col-md-5 col-md-offset-1'>
+			<%= link_to image_tag("skull.png"), team_present_path('grooms') %>
+			<figcaption>The Grooms</figcaption>
+			</figure>
+			<aside class='col-md-3 col-md-offset-1'>
+				<p> 
+				<br>Jenni</br>
+				<br>Linnea</br>
+				<p/>
+			</aside>
+		</div>
+
+		<div class='row'>
+			<figure class='col-md-5 col-md-offset-1'>
+			<%= link_to image_tag("claudia.png"), team_present_path('raiders') %>
 			<figcaption>Raiders</figcaption>
-		</figure>
-		<figure>
-			<%= link_to image_tag("IMG_1929.JPG"), team_present_path('grooms') %>
-			<figcaption>Grooms</figcaption>
-		</figure>
-		<figure>
-			<%= link_to image_tag("IMG_1929.JPG"), team_present_path('trainers') %>
-			<figcaption>Trainers</figcaption>
-		</figure>
-		<figure>
-			<%= link_to image_tag("IMG_1929.JPG"), team_present_path('vet') %>
+			</figure>
+			<aside class='col-md-3 col-md-offset-1'>
+				<p> 
+				<br>Wolfgang Shade</br>
+				<br>Linnea Grunn</br>
+				<br>Sarah Mills</br>
+				<br>Janne Berg</br>
+				<br>Sebastian Numminen</br>
+				<br>Mikaela Soratie</br>
+				<br>Esteratsastaja</br>
+				<p/>
+			</aside>
+		</div>
+
+		<div class='row'>
+			<figure class='col-md-5 col-md-offset-1'>
+			<%= link_to image_tag("claudia2.png"), team_present_path('vet') %>
 			<figcaption>Vet</figcaption>
-		</figure>
-		<figure>
-			<%= link_to image_tag("IMG_1929.JPG"), team_present_path('farrier') %>
-			<figcaption>Farrier</figcaption>
-		</figure>
-		<figure>
-			<%= link_to image_tag("IMG_1929.JPG"), team_present_path('physio') %>
+			</figure>
+			<aside class='col-md-3 col-md-offset-1'>
+				<p> 
+				<br>Eamon</br>
+				<p/>
+			</aside>
+		</div>
+
+		<div class='row'>
+			<figure class='col-md-5 col-md-offset-1'>
+			<%= link_to image_tag("sta.png"), team_present_path('physio') %>
 			<figcaption>Physio</figcaption>
-		</figure>
-		<figure>
-			<%= link_to image_tag("IMG_1929.JPG"), team_present_path('maintenance') %>
+			</figure>
+			<aside class='col-md-3 col-md-offset-1'>
+				<p>
+				<br>Raine Makela</br>
+				<br>Mira Marela</br>
+				<p/>
+			</aside>
+		</div>
+		<div class='row'>
+			<figure class='col-md-5 col-md-offset-1'>
+			<%= link_to image_tag("claudia2.png"), team_present_path('farrier') %>
+			<figcaption>Farrier</figcaption>
+			</figure>
+			<aside class='col-md-3 col-md-offset-1'>
+				<p> 
+				<br>Dieter Krohnert</br>
+				<p/>
+			</aside>
+		</div>
+
+		<div class='row'>
+			<figure class='col-md-5 col-md-offset-1'>
+			<%= link_to image_tag("claudia2.png"), team_present_path('trainers') %>
+			<figcaption>Trainers</figcaption>
+			</figure>
+			<aside class='col-md-3 col-md-offset-1'>
+				<p> 
+				<br>Kyra K</br>
+				<br>Sarah Mills</br>
+				<br>Coach</br>
+				<p/>
+			</aside>
+		</div>
+
+		<div class='row'>
+			<figure class='col-md-5 col-md-offset-1'>
+			<%= link_to image_tag("claudia2.png"), team_present_path('lady_of_the_residence') %>
+			<figcaption>The Lady of the residence</figcaption>
+			</figure>
+			<aside class='col-md-3 col-md-offset-1'>
+				<p> 
+				<br>Katja K</br>
+				<p/>
+			</aside>
+		</div>
+
+		<div class='row'>
+			<figure class='col-md-5 col-md-offset-1'>
+			<%= link_to image_tag("moathouse.png"), team_present_path('maintenance') %>
 			<figcaption>Maintenance</figcaption>
-		</figure>
-		<figure>
-			<%= link_to image_tag("IMG_1929.JPG"), team_present_path('lady_of_the_residence') %>
-			<figcaption>lady of the residence</figcaption>
-		</figure>
-		<figure>
-			<%= link_to image_tag("IMG_1929.JPG"), team_present_path('other') %>
-			<figcaption>general shit</figcaption>
-		</figure>
-		<figure>
-			<%= link_to image_tag("IMG_1929.JPG"), team_present_path('supporters') %>
-			<figcaption>supporters</figcaption>
-		</figure>
+			</figure>
+			<aside class='col-md-3 col-md-offset-1'>
+				<p> 
+				<br>Sormeton</br>
+				<p/>
+			</aside>
+		</div>
+
+		<div class='row'>
+			<figure class='col-md-5 col-md-offset-1'>
+			<%= link_to image_tag("claudia2.png"), team_present_path('supporters') %>
+			<figcaption>Supporters</figcaption>
+			</figure>
+			<aside class='col-md-3 col-md-offset-1'>
+				<p> 
+				<br>Bono</br>
+				<br>Roxy</br>
+				<br>Doris</br>
+				<p/>
+			</aside>
+		</div>
+
 	</section>
+
+
+
