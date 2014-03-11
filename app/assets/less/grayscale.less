@@ -20,6 +20,12 @@ html {
     height: 100%;
 }
 
+footer {
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+
 // Typhography 
 
 h1,
@@ -34,7 +40,7 @@ h6 {
     color: white;
     font-weight: 300;
     letter-spacing: 1px;
-    text-shadow:2px 2px 2px #333333
+    text-shadow:2px 2px 2px #333333;
 }
 
 p {
@@ -46,7 +52,7 @@ p {
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
-        font-size: 30px;
+        font-size: 33px;
         line-height: 1.6;
     }
 }
@@ -135,6 +141,7 @@ a:focus {
     }
 }
 
+
  // Full Page Image Intro Section 
 
  .intro {
@@ -176,7 +183,7 @@ a:focus {
     }
 
     .intro-text {
-        font-size: 30px;
+        font-size: 32px;
     }
 }
 
@@ -273,8 +280,8 @@ a:focus {
 }
 
 #map {
+  
     width: 100%;
-    height: 200px;
     margin-top: 100px;
 }
 
@@ -288,7 +295,7 @@ a:focus {
     }
 
     #map {
-        height: 400px;
+        height: 200px;
         margin-top: 250px;
     }
 }
@@ -371,6 +378,14 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,0.2);
 }
 
+address {
+  font-family: cursive;
+    font-size: 30px;
+    line-height:130%;
+
+
+}
+
 figure {
     margin: .8em;
 }
@@ -378,13 +393,20 @@ figcaption {
     margin-top: .4em;
     font-size: 2em;
 }
+
+#horses figure figcaption {
+    margin-bottom: 2em;
+
+}
+
 .horse-detail {
     margin-top: 10%;
 }
-.horse-detail header{
-    text-align: center
-
+.horse-detail header {
+    text-align: center;
+    
 }
+
 .horse-detail figure img {
     max-width: 80%;
     display: block;
@@ -437,9 +459,31 @@ figcaption {
 
 }
 
-.team{
-    margin-top: 10%;
+#team {
+    margin-top: 10em;
+    text-align: center;
+    margin-bottom: 5em;
 
+}
+#team header {
+    margin-bottom: 8em;
+    
+}
+
+#team figure img {
+   border: solid 8px #CCC;
+    margin-bottom: 1em;    
+}
+
+#team figure figcaption {
+    margin-bottom: 2em;
+    margin-right: 14em;
+
+}
+
+#team aside p {
+    margin-top: 2em;
+    line-height: 70%;
 }
 
 .team-detail {
@@ -451,6 +495,7 @@ figcaption {
 .team-detail header {
     text-align: center;
     margin-bottom: 5em;
+
 
 }
 
