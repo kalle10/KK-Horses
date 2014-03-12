@@ -20,11 +20,6 @@ html {
     height: 100%;
 }
 
-footer {
-    margin-top: 3em;
-    margin-bottom: 1em;
-}
-
 
 // Typhography 
 
@@ -48,6 +43,12 @@ p {
     font-size: 18px;
     line-height: 1.5;
 }
+
+footer {
+   margin-bottom: 2px;
+   margin-top: 2em;
+}
+
 
 @media(min-width:767px) {
     p {
@@ -393,6 +394,14 @@ figcaption {
     margin-top: .4em;
     font-size: 2em;
 }
+#horses header h1 {
+    margin-bottom: 2em;
+
+}
+
+#horses header h2 {
+    margin-left: 2em;
+}
 
 #horses figure figcaption {
     margin-bottom: 2em;
@@ -414,11 +423,13 @@ figcaption {
     margin-right: auto; 
     border: solid 8px #CCC;
     margin-bottom: 5em;
+    box-shadow: 2px 2px 2px #999; 
 }
 
 .horse-detail aside img {
     margin-bottom: 1em;
     border: solid 8px #CCC;
+    box-shadow: 2px 2px 2px #999;
 }
 
 
@@ -443,7 +454,7 @@ figcaption {
   
     position: relative; 
     top: 1em; 
-    left: 29em; 
+    left: 26em; 
     margin-bottom: 3em;
 } 
 
@@ -472,7 +483,8 @@ figcaption {
 
 #team figure img {
    border: solid 8px #CCC;
-    margin-bottom: 1em;    
+    margin-bottom: 1em;
+     box-shadow: 2px 2px 2px #999;   
 }
 
 #team figure figcaption {
@@ -482,7 +494,7 @@ figcaption {
 }
 
 #team aside p {
-    margin-top: 2em;
+    margin-top: 1em;
     line-height: 70%;
 }
 
@@ -506,6 +518,7 @@ figcaption {
     margin-right: auto; 
     border: solid 8px #CCC;
     margin-bottom: 1em;
+
 }
 .team-detail aside {
     margin-left: 3em;
@@ -533,5 +546,41 @@ figcaption {
 
 }
 
-
-
+body {
+    #oneout {
+    position:fixed;
+    top:17em;left:10px;
+    text-align:center;
+    -webkit-transition-duration:0.2s;-moz-transition-duration:0.2s;-o-transition-duration:0.2s;transition-duration:0.2s;
+    z-index:99999999; }
+ 
+#oneout_inner {
+    position:fixed;
+    border:1px;
+    border-radius:15px;
+    font-family:arial; font-size:16px;
+    color: white;
+    text-shadow: none;
+    width:230px; height:auto;
+    top:12em; left:-250px;
+    padding:10px;
+    background: #191919; /* change #FFFFFF; to transparent; if you want the background of the slide out tab to be transparent and not white*/
+    -webkit-transition-duration:0.3s;-moz-transition-duration:0.3s;-o-transition-duration:0.3s;transition-duration:0.3s;
+    text-align:left;
+    z-index:99999999; }
+ 
+#oneout:hover {
+    left:250px;
+    z-index:99999999; }
+ 
+#oneout:hover #oneout_inner {
+    left:5px;
+    z-index:99999999; }
+ 
+.onetitle {
+    position:absolute;
+    left:-5px; top:3px;
+    font-family:arial; font-size:16px;    
+    -webkit-transform:rotate(-90deg); -moz-transform:rotate(-90deg); -ms-transform:rotate(-90deg); -o-transform:rotate(-90deg); transform:rotate(-90deg);
+    z-index:99999999; }
+}
