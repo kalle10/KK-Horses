@@ -272,7 +272,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: @light;
-    background: url(../img/intro-bg.jpg) no-repeat center center scroll;
+    background: url(../img/sauvat3.png) no-repeat center center scroll;
     background-color: @dark;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -394,13 +394,22 @@ figcaption {
     margin-top: .4em;
     font-size: 2em;
 }
+
+#horses {
+    margin-top: 8em;
+
+}
+
 #horses header h1 {
     margin-bottom: 2em;
-
+    text-align: center;
+    font-size: 44px;
+    text-shadow: 2px 2px #333333;
 }
 
 #horses header h2 {
     margin-left: 2em;
+    margin-top: -1em;
 }
 
 #horses figure figcaption {
@@ -434,9 +443,9 @@ figcaption {
 
 
 .horse-detail p {
-    font-family: "Impact, Charcoal, sans-serif";
+    font-family: cursive;
     line-height:70%;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 100;
     background-color:#333333;
     border:8px solid gray;
@@ -478,8 +487,11 @@ figcaption {
     margin-bottom: 5em;
 
 }
-#team header {
-    margin-bottom: 8em;
+#team header h1{
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 44px;
+    text-shadow: 2px 2px #333333;
     
 }
 
@@ -496,6 +508,7 @@ figcaption {
 }
 
 #team aside p {
+
     margin-top: 1em;
     line-height: 70%;
 }
@@ -508,9 +521,14 @@ figcaption {
 
 .team-detail header {
     text-align: center;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
+    font-size: 44px;
+    text-shadow: 2px 2px #333333;
 
+}
 
+.team-detail figure {
+    margin-bottom: 3em;
 }
 
 .team-detail figure img {
@@ -522,9 +540,10 @@ figcaption {
     margin-bottom: 1em;
 
 }
-.team-detail aside {
-    margin-left: 3em;
-
+.team-detail aside p {
+    font-family: cursive;
+    font-size: 20px;
+    line-height: 130%;
 
 }
 
@@ -555,7 +574,7 @@ body {
     text-align:center;
     -webkit-transition-duration:0.2s;-moz-transition-duration:0.2s;-o-transition-duration:0.2s;transition-duration:0.2s;
     z-index:99999999; }
- 
+
 #oneout_inner {
     position:fixed;
     border:1px;
@@ -565,12 +584,16 @@ body {
     color: white;
     text-shadow: none;
     width:230px; height:auto;
-    top:12em; left:-250px;
+    top:12em; left:-350px;
     padding:10px;
     background: #191919; 
     -webkit-transition-duration:0.3s;-moz-transition-duration:0.3s;-o-transition-duration:0.3s;transition-duration:0.3s;
     text-align:left;
     z-index:99999999; }
+
+#oneout_inner time {
+    color: #E60000;
+}
  
 #oneout:hover {
     left:250px;
