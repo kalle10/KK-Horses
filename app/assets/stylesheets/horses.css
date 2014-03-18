@@ -14,21 +14,10 @@ body {
  
 }*/
 
-img {border: solid 8px #CCC; 
+img.horse {border: solid 8px #CCC; 
 	-moz-box-shadow: 1px 1px 1px #999; 
 	-webkit-box-shadow: 0px 1px 1px #999; 
-	box-shadow: 0px 1px 1px #999; }
-
-/*img {
-  -webkit-transition: all 0,2s ease;
-     -moz-transition: all 0,2s ease;
-       -o-transition: all 0,2s ease;
-      -ms-transition: all 0,2s ease;
-          transition: all 0,2s ease;
-}*/
-
- 
-img {
+	box-shadow: 0px 1px 1px #999;
   width: 330px;
  
   -webkit-transition: all 1s ease;
@@ -38,7 +27,7 @@ img {
           transition: all 1s ease;
 }
 
-img:hover {
+img.horse:hover {
   width: 380px;
   
 }
