@@ -84,6 +84,7 @@
         <br>
         <a href="http://www.addingtonmanor.co.uk/" target="_blank">link</a> 
         </br>
+        <%= link_to 'News', news_index_path('news') %>
         </center>
     </aside>
 
@@ -94,6 +95,7 @@
         
         height: 350px;
       }
+      
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script>
@@ -111,7 +113,8 @@
             map: map,
             title: "KK Horses"
         });
-        var contentString = '<article><header><h1>KK Horses</h1></header><p><address>The Moat House<br/>Two Mile Ash Road<br/>RH13 0LA Horsham<br/>UK<br/>tel.+44 1403 - 732 675  /  +44 78377 49477<br/>email: kkhorses@btinternet.com</address></p></article>';
+        var contentString = '<article class="map"><header><h1>KK Horses</h1></header><p><address>The Moat House<br/>Two Mile Ash Road<br/>RH13 0LA Horsham<br/>UK<br/>tel.+44 1403 - 732 675  /  +44 78377 49477<br/>email: kkhorses@btinternet.com</address></p></article>'
+            
         var infowindow = new google.maps.InfoWindow({
             content: contentString
         });
